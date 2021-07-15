@@ -5,7 +5,7 @@
 2. application.properties URL 수정
 	spring.datasource.url -> spring.datasource.jdbc-url
 	
-3. BatchJobConfig 에서 SqlSessionTemplate DI 주입
+3. BatchJobConfig 에서 SqlSessionTemplate 을 @Autowired로 DI
 
 4. Tasklet 구현제에서는 생성자 주입
 
